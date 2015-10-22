@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "a12a4669a1097af34f0c0eaf53ac4ce876501bffc2457b7b097f9c799a6cbde9",
-    "current": "a12a4669a1097af34f0c0eaf53ac4ce876501bffc2457b7b097f9c799a6cbde9"
+    "previous": "0ee955b8a479722ec4e464d3111f24dc33e81b925640b81781391e516c1d70d7",
+    "current": "0ee955b8a479722ec4e464d3111f24dc33e81b925640b81781391e516c1d70d7"
   },
   "fonts": [
     "public/assets/icons.ttf",
@@ -10,6 +10,10 @@
     "public/assets/icons.eot"
   ],
   "glyphs": {
+    "code": {
+      "codepoint": 61700,
+      "source": "app/assets/fonts/icons/code.svg"
+    },
     "judge": {
       "codepoint": 61697,
       "source": "app/assets/fonts/icons/judge.svg"
@@ -17,6 +21,22 @@
     "logo": {
       "codepoint": 61696,
       "source": "app/assets/fonts/icons/logo.svg"
+    },
+    "pin": {
+      "codepoint": 61704,
+      "source": "app/assets/fonts/icons/pin.svg"
+    },
+    "press": {
+      "codepoint": 61702,
+      "source": "app/assets/fonts/icons/press.svg"
+    },
+    "schedule": {
+      "codepoint": 61703,
+      "source": "app/assets/fonts/icons/schedule.svg"
+    },
+    "slack": {
+      "codepoint": 61701,
+      "source": "app/assets/fonts/icons/slack.svg"
     },
     "speaker": {
       "codepoint": 61698,

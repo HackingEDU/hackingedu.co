@@ -31,7 +31,12 @@
   font-smoothing: antialiased;
 }
 
+[data-icon="code"]:before { content: "\f104"; }
 [data-icon="judge"]:before { content: "\f101"; }
 [data-icon="logo"]:before { content: "\f100"; }
+[data-icon="pin"]:before { content: "\f108"; }
+[data-icon="press"]:before { content: "\f106"; }
+[data-icon="schedule"]:before { content: "\f107"; }
+[data-icon="slack"]:before { content: "\f105"; }
 [data-icon="speaker"]:before { content: "\f102"; }
 [data-icon="sponsor"]:before { content: "\f103"; }
