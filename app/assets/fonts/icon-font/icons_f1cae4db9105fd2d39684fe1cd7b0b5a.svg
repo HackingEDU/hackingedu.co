@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2015-10-13: Created with FontForge (http://fontforge.org)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20150715 at Tue Oct 13 01:00:00 2015
+ By Dave McCarthy
+Copyright (c) 2015, Dave McCarthy
+</metadata>
+<defs>
+<font id="icons" horiz-adv-x="512" >
+  <font-face 
+    font-family="icons"
+    font-weight="400"
+    font-stretch="normal"
+    units-per-em="512"
+    panose-1="2 0 5 3 0 0 0 0 0 0"
+    ascent="448"
+    descent="-64"
+    bbox="-160 -65 352 447"
+    underline-thickness="25.6"
+    underline-position="-51.2"
+    unicode-range="U+0020-F101"
+  />
+    <missing-glyph />
+    <glyph glyph-name="space" unicode=" " horiz-adv-x="200" 
+ />
+    <glyph glyph-name="uniF101" unicode="&#xf101;" 
+d="M-160 447h512v-512h-512v512zM249.6 37.4004v307.199h-76.7998v-153.6l-51.2002 -153.6h-51.1992l-51.2002 153.6v153.6h-76.7998v-307.199h128l22.7998 -68.3008c0.899414 -2.69922 4.7002 -2.69922 5.59961 0l22.7998 68.3008h128z" />
+    <glyph glyph-name="uniF100" unicode="&#xf100;" 
+d="M-160 447h512v-512h-512v512zM249.6 37.4004v307.199h-76.7998v-153.6l-51.2002 -153.6h-51.1992l-51.2002 153.6v153.6h-76.7998v-307.199h128l22.7998 -68.3008c0.899414 -2.69922 4.7002 -2.69922 5.59961 0l22.7998 68.3008h128z" />
+  </font>
+</defs></svg>

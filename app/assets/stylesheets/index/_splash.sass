@@ -1,0 +1,83 @@
+.splash
+  height: 100vh
+  position: relative
+  display: flex
+  justify-content: space-between
+  flex-direction: column
+  background:
+    image: image-url("splash.jpg")
+    size: cover
+    position: center
+
+  &--content
+    align-self: center
+    color: white
+
+  &--tagline
+    margin-bottom: 1rem
+    text-transform: uppercase
+
+    &-top
+      font-size: 4rem
+      font-weight: bold
+
+      small
+        font-size: 0.8em
+        font-weight: normal
+
+    &-bottom
+      font-size: 1.5rem
+
+  &--countdown
+    background-image: linear-gradient(90deg, transparent, rgba($black, 0.8) 18%, rgba($black, 0.5) 85%, transparent)
+    margin:
+      top: 2rem
+      bottom: 2rem
+    padding:
+      bottom: 1rem
+
+    &-segment
+      display: inline-block
+      width: 150px
+      text-align: center
+
+    &-number
+      font-size: 5rem
+      font-family: Monaco, monospace
+      color: $white
+
+    &-label
+      text-transform: uppercase
+      color: $light-gray
+      text-align: center
+      font-size: 0.8rem
+
+  &--location
+    color: $light-gray
+    margin-top: 3rem
+    font-size: 1.5rem
+    font-weight: bold
+
+    > small
+      color: $medium-gray
+      font-weight: normal
+
+  &--arrow
+    align-self: center
+    display: flex
+    align-items: center
+    justify-content: center
+    margin-bottom: 2rem
+    width: 40px
+    height: 40px
+    border-radius: 100%
+    border: 2px solid rgba($off-white, 0.8)
+
+    &:after
+      content: ""
+      height: 8px
+      width: 8px
+      transform: rotate(45deg)
+      border:
+        right: 2px solid $off-white
+        bottom: 2px solid $off-white

@@ -1,0 +1,28 @@
+.navigation
+  position: fixed
+  z-index: 1
+  top: 0
+  left: 0
+  right: 0
+  height: $navigation-height
+  background-color: rgba($white, 0.3)
+  border-bottom: 1px solid rgba($off-white, 0.2)
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+  &--logo
+    font-size: 5rem
+    color: white
+
+    &:after
+      vertical-align: middle
+  
+  &--link
+    color: $white
+    text-decoration: none
+    text-transform: uppercase
+    font-size: 0.8em
+
+    + .navigation--link
+      margin-left: 2rem

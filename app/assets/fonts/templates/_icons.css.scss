@@ -1,0 +1,7 @@
+<%= font_face(path: @font_path_alt) %>
+
+[data-icon]:before {
+<%= glyph_properties %>
+}
+
+<%= glyphs %>

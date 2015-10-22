@@ -1,0 +1,48 @@
+{
+  "checksum": {
+    "previous": "133d4405de9dcada90056200cb52ac693de8378a926fc9a5dd304d9ed4861711",
+    "current": "133d4405de9dcada90056200cb52ac693de8378a926fc9a5dd304d9ed4861711"
+  },
+  "fonts": [
+    "public/assets/icons.ttf",
+    "public/assets/icons.svg",
+    "public/assets/icons.woff",
+    "public/assets/icons.eot"
+  ],
+  "glyphs": {
+    "logo": {
+      "codepoint": 61696,
+      "source": "app/assets/fonts/icons/logo.svg"
+    }
+  },
+  "options": {
+    "autowidth": false,
+    "config": "fontcustom.yml",
+    "css_selector": "[data-icon=\"{{glyph}}\"]",
+    "debug": true,
+    "font_ascent": 448,
+    "font_descent": 64,
+    "font_design_size": 16,
+    "font_em": 512,
+    "font_name": "icons",
+    "force": true,
+    "input": {
+      "templates": "app/assets/fonts/templates",
+      "vectors": "app/assets/fonts/icons"
+    },
+    "no_hash": true,
+    "output": {
+      "css": "app/assets/fonts",
+      "fonts": "public/assets",
+      "preview": "public/assets"
+    },
+    "preprocessor_path": "",
+    "quiet": false,
+    "templates": [
+      "_icons.css.scss"
+    ]
+  },
+  "templates": [
+    "app/assets/fonts/_icons.css.scss"
+  ]
+}

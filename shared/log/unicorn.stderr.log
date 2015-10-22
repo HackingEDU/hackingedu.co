@@ -1,0 +1,559 @@
+I, [2015-10-21T09:36:59.520491 #18234]  INFO -- : Refreshing Gem list
+I, [2015-10-21T09:37:05.727782 #18234]  INFO -- : listening on addr=/home/root/davesmccarthy/shared/sockets/unicorn.sock fd=9
+I, [2015-10-21T09:37:05.728035 #18234]  INFO -- : worker=0 spawning...
+I, [2015-10-21T09:37:05.730428 #18234]  INFO -- : worker=1 spawning...
+I, [2015-10-21T09:37:05.731884 #18234]  INFO -- : master process ready
+I, [2015-10-21T09:37:05.739214 #18237]  INFO -- : worker=0 spawned pid=18237
+I, [2015-10-21T09:37:05.740764 #18239]  INFO -- : worker=1 spawned pid=18239
+I, [2015-10-21T09:37:05.752178 #18237]  INFO -- : worker=0 ready
+I, [2015-10-21T09:37:05.757781 #18239]  INFO -- : worker=1 ready
+I, [2015-10-21T09:37:23.095935 #18311]  INFO -- : executing ["/root/.rbenv/versions/2.2.1/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {9=>#<Kgio::UNIXServer:/home/root/davesmccarthy/shared/sockets/unicorn.sock>}] (in /home/root/davesmccarthy)
+I, [2015-10-21T09:37:23.096135 #18311]  INFO -- : forked child re-executing...
+I, [2015-10-21T09:37:23.609553 #18311]  INFO -- : inherited addr=/home/root/davesmccarthy/shared/sockets/unicorn.sock fd=9
+I, [2015-10-21T09:37:23.609877 #18311]  INFO -- : Refreshing Gem list
+I, [2015-10-21T09:37:25.978749 #18311]  INFO -- : worker=0 spawning...
+I, [2015-10-21T09:37:25.982490 #18311]  INFO -- : worker=1 spawning...
+I, [2015-10-21T09:37:25.984690 #18311]  INFO -- : master process ready
+I, [2015-10-21T09:37:25.986837 #18317]  INFO -- : worker=1 spawned pid=18317
+I, [2015-10-21T09:37:25.985918 #18315]  INFO -- : worker=0 spawned pid=18315
+I, [2015-10-21T09:37:25.992434 #18315]  INFO -- : worker=0 ready
+I, [2015-10-21T09:37:25.996182 #18317]  INFO -- : worker=1 ready
+I, [2015-10-21T09:39:00.928214 #18311]  INFO -- : reaped #<Process::Status: pid 18315 exit 0> worker=0
+I, [2015-10-21T09:39:00.928362 #18311]  INFO -- : reaped #<Process::Status: pid 18317 exit 0> worker=1
+I, [2015-10-21T09:39:00.928447 #18311]  INFO -- : master complete
+E, [2015-10-21T09:39:01.017955 #18234] ERROR -- : reaped #<Process::Status: pid 18311 exit 0> exec()-ed
+I, [2015-10-21T09:39:49.368772 #18569]  INFO -- : Refreshing Gem list
+I, [2015-10-21T09:39:51.815591 #18569]  INFO -- : unlinking existing socket=/home/root/davesmccarthy/shared/sockets/unicorn.sock
+I, [2015-10-21T09:39:51.815835 #18569]  INFO -- : listening on addr=/home/root/davesmccarthy/shared/sockets/unicorn.sock fd=11
+I, [2015-10-21T09:39:51.815980 #18569]  INFO -- : worker=0 spawning...
+I, [2015-10-21T09:39:51.818726 #18569]  INFO -- : worker=1 spawning...
+I, [2015-10-21T09:39:51.820345 #18569]  INFO -- : master process ready
+I, [2015-10-21T09:39:51.827400 #18572]  INFO -- : worker=0 spawned pid=18572
+I, [2015-10-21T09:39:51.834925 #18574]  INFO -- : worker=1 spawned pid=18574
+I, [2015-10-21T09:39:51.843209 #18572]  INFO -- : worker=0 ready
+I, [2015-10-21T09:39:51.843928 #18574]  INFO -- : worker=1 ready
+I, [2015-10-21T10:15:25.011618 #18569]  INFO -- : reaped #<Process::Status: pid 18572 exit 0> worker=0
+I, [2015-10-21T10:15:25.011747 #18569]  INFO -- : reaped #<Process::Status: pid 18574 exit 0> worker=1
+I, [2015-10-21T10:15:25.011828 #18569]  INFO -- : master complete
+I, [2015-10-21T10:15:36.552570 #22347]  INFO -- : Refreshing Gem list
+I, [2015-10-21T10:15:38.802183 #22347]  INFO -- : unlinking existing socket=/home/root/davesmccarthy/shared/sockets/unicorn.sock
+I, [2015-10-21T10:15:38.802410 #22347]  INFO -- : listening on addr=/home/root/davesmccarthy/shared/sockets/unicorn.sock fd=9
+I, [2015-10-21T10:15:38.802561 #22347]  INFO -- : worker=0 spawning...
+I, [2015-10-21T10:15:38.805177 #22347]  INFO -- : worker=1 spawning...
+I, [2015-10-21T10:15:38.805997 #22350]  INFO -- : worker=0 spawned pid=22350
+I, [2015-10-21T10:15:38.808521 #22350]  INFO -- : worker=0 ready
+I, [2015-10-21T10:15:38.810898 #22347]  INFO -- : master process ready
+I, [2015-10-21T10:15:38.819156 #22353]  INFO -- : worker=1 spawned pid=22353
+I, [2015-10-21T10:15:38.821763 #22353]  INFO -- : worker=1 ready
+I, [2015-10-21T10:15:43.152300 #22361]  INFO -- : executing ["/root/.rbenv/versions/2.2.1/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {9=>#<Kgio::UNIXServer:/home/root/davesmccarthy/shared/sockets/unicorn.sock>}] (in /home/root/davesmccarthy)
+I, [2015-10-21T10:15:43.152525 #22361]  INFO -- : forked child re-executing...
+I, [2015-10-21T10:15:43.669666 #22361]  INFO -- : inherited addr=/home/root/davesmccarthy/shared/sockets/unicorn.sock fd=9
+I, [2015-10-21T10:15:43.670103 #22361]  INFO -- : Refreshing Gem list
+I, [2015-10-21T10:15:45.779611 #22361]  INFO -- : worker=0 spawning...
+I, [2015-10-21T10:15:45.782084 #22361]  INFO -- : worker=1 spawning...
+I, [2015-10-21T10:15:45.782882 #22365]  INFO -- : worker=0 spawned pid=22365
+I, [2015-10-21T10:15:45.785395 #22365]  INFO -- : worker=0 ready
+I, [2015-10-21T10:15:45.787513 #22361]  INFO -- : master process ready
+I, [2015-10-21T10:15:45.788471 #22368]  INFO -- : worker=1 spawned pid=22368
+I, [2015-10-21T10:15:45.790964 #22368]  INFO -- : worker=1 ready
+E, [2015-10-21T10:20:07.330542 #22350] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T10:20:07.330678 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T10:20:07.330714 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T10:20:07.330736 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T10:20:07.330758 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T10:20:07.330779 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T10:20:07.330799 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T10:20:07.330820 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T10:20:07.330840 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T10:20:07.330860 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T10:20:07.331002 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T10:20:07.331026 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T10:20:20.433300 #22353] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T10:20:20.433433 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T10:20:20.433469 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T10:20:20.433490 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T10:20:20.433511 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T10:20:20.433531 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T10:20:20.433551 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T10:20:20.433572 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T10:20:20.433735 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T10:20:20.433756 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T10:20:20.433776 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T10:20:20.433794 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T10:20:25.620514 #22365] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T10:20:25.620647 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T10:20:25.620764 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T10:20:25.620785 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T10:20:25.620805 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T10:20:25.620824 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T10:20:25.620843 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T10:20:25.620863 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T10:20:25.620882 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T10:20:25.620901 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T10:20:25.620921 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T10:20:25.620939 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T10:20:36.122142 #22361] ERROR -- : old PID:22347 running with existing pid=/home/root/davesmccarthy/shared/pids/unicorn.pid.oldbin, refusing rexec
+E, [2015-10-21T10:20:41.508116 #22350] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T10:20:41.508235 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T10:20:41.508263 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T10:20:41.508285 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T10:20:41.508306 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T10:20:41.508327 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T10:20:41.508348 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T10:20:41.508368 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T10:20:41.508389 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T10:20:41.508425 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T10:20:41.508445 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T10:20:41.508464 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T10:20:46.071207 #22353] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T10:20:46.071320 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T10:20:46.071345 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T10:20:46.071368 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T10:20:46.071388 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T10:20:46.071408 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T10:20:46.071427 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T10:20:46.071447 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T10:20:46.071466 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T10:20:46.071485 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T10:20:46.071504 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T10:20:46.071523 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T10:20:47.155217 #22368] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T10:20:47.157710 #22368] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T10:20:47.157763 #22368] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T10:20:47.157784 #22368] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T10:20:47.157804 #22368] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T10:20:47.157823 #22368] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T10:20:47.157842 #22368] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T10:20:47.157862 #22368] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T10:20:47.157880 #22368] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T10:20:47.157899 #22368] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T10:20:47.157917 #22368] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T10:20:47.157935 #22368] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T10:22:42.534782 #22361] ERROR -- : old PID:22347 running with existing pid=/home/root/davesmccarthy/shared/pids/unicorn.pid.oldbin, refusing rexec
+E, [2015-10-21T10:23:01.387255 #22365] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T10:23:01.387368 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T10:23:01.387395 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T10:23:01.387419 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T10:23:01.387440 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T10:23:01.387461 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T10:23:01.387482 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T10:23:01.387503 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T10:23:01.387524 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T10:23:01.387549 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T10:23:01.387569 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T10:23:01.387593 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T10:24:05.820624 #22353] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T10:24:05.820744 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T10:24:05.820769 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T10:24:05.820790 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T10:24:05.820810 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T10:24:05.820830 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T10:24:05.820850 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T10:24:05.820869 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T10:24:05.820889 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T10:24:05.820913 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T10:24:05.820933 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T10:24:05.820952 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T10:24:25.900911 #22350] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T10:24:25.901039 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T10:24:25.901065 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T10:24:25.901086 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T10:24:25.901105 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T10:24:25.901124 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T10:24:25.901143 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T10:24:25.901162 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T10:24:25.901185 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T10:24:25.901204 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T10:24:25.901223 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T10:24:25.901242 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T10:24:26.791288 #22365] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T10:24:26.791392 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T10:24:26.791416 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T10:24:26.791437 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T10:24:26.791457 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T10:24:26.791483 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T10:24:26.791504 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T10:24:26.791524 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T10:24:26.791544 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T10:24:26.791563 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T10:24:26.791582 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T10:24:26.791601 #22365] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T10:24:27.314177 #22353] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T10:24:27.314280 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T10:24:27.314302 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T10:24:27.314337 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T10:24:27.314358 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T10:24:27.314377 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T10:24:27.314396 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T10:24:27.314415 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T10:24:27.314435 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T10:24:27.314458 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T10:24:27.314478 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T10:24:27.314496 #22353] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T10:25:55.973921 #22350] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T10:25:55.974091 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T10:25:55.974123 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T10:25:55.974144 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T10:25:55.974164 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T10:25:55.974184 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T10:25:55.974203 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T10:25:55.974223 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T10:25:55.974243 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T10:25:55.974262 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T10:25:55.974281 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T10:25:55.974307 #22350] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T10:28:15.595862 #22361] ERROR -- : reaped #<Process::Status: pid 22368 SIGKILL (signal 9)> worker=1
+I, [2015-10-21T10:28:15.596070 #22361]  INFO -- : worker=1 spawning...
+I, [2015-10-21T10:28:15.597989 #23423]  INFO -- : worker=1 spawned pid=23423
+I, [2015-10-21T10:28:15.600650 #23423]  INFO -- : worker=1 ready
+I, [2015-10-21T10:28:49.952723 #23565]  INFO -- : Refreshing Gem list
+I, [2015-10-21T10:28:52.092243 #23565]  INFO -- : unlinking existing socket=/home/root/davesmccarthy/shared/sockets/unicorn.sock
+I, [2015-10-21T10:28:52.092462 #23565]  INFO -- : listening on addr=/home/root/davesmccarthy/shared/sockets/unicorn.sock fd=9
+I, [2015-10-21T10:28:52.092605 #23565]  INFO -- : worker=0 spawning...
+I, [2015-10-21T10:28:52.095180 #23565]  INFO -- : worker=1 spawning...
+I, [2015-10-21T10:28:52.096722 #23565]  INFO -- : master process ready
+I, [2015-10-21T10:28:52.103375 #23568]  INFO -- : worker=0 spawned pid=23568
+I, [2015-10-21T10:28:52.110912 #23570]  INFO -- : worker=1 spawned pid=23570
+I, [2015-10-21T10:28:52.113379 #23570]  INFO -- : worker=1 ready
+I, [2015-10-21T10:28:52.118230 #23568]  INFO -- : worker=0 ready
+E, [2015-10-21T10:29:08.858061 #23568] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T10:29:08.858200 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T10:29:08.858236 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T10:29:08.858257 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T10:29:08.858281 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T10:29:08.858317 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T10:29:08.858357 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T10:29:08.858381 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T10:29:08.858400 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T10:29:08.858419 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T10:29:08.858439 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T10:29:08.858458 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T10:29:09.904770 #23570] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T10:29:09.904907 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T10:29:09.904947 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T10:29:09.904969 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T10:29:09.905005 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T10:29:09.905047 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T10:29:09.905070 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T10:29:09.905089 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T10:29:09.905109 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T10:29:09.905128 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T10:29:09.905147 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T10:29:09.905166 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T10:31:39.394433 #23568] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T10:31:39.394571 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T10:31:39.394596 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T10:31:39.394617 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T10:31:39.394636 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T10:31:39.394656 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T10:31:39.394675 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T10:31:39.394694 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T10:31:39.394714 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T10:31:39.394733 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T10:31:39.394752 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T10:31:39.394774 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+I, [2015-10-21T10:35:14.939965 #24163]  INFO -- : executing ["/root/.rbenv/versions/2.2.1/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {9=>#<Kgio::UNIXServer:/home/root/davesmccarthy/shared/sockets/unicorn.sock>}] (in /home/root/davesmccarthy)
+I, [2015-10-21T10:35:14.940156 #24163]  INFO -- : forked child re-executing...
+I, [2015-10-21T10:35:15.432627 #24163]  INFO -- : inherited addr=/home/root/davesmccarthy/shared/sockets/unicorn.sock fd=9
+I, [2015-10-21T10:35:15.433015 #24163]  INFO -- : Refreshing Gem list
+I, [2015-10-21T10:35:17.549884 #24163]  INFO -- : worker=0 spawning...
+I, [2015-10-21T10:35:17.552488 #24163]  INFO -- : worker=1 spawning...
+I, [2015-10-21T10:35:17.553594 #24167]  INFO -- : worker=0 spawned pid=24167
+I, [2015-10-21T10:35:17.556088 #24163]  INFO -- : master process ready
+I, [2015-10-21T10:35:17.558796 #24170]  INFO -- : worker=1 spawned pid=24170
+I, [2015-10-21T10:35:17.561136 #24170]  INFO -- : worker=1 ready
+I, [2015-10-21T10:35:17.561888 #24167]  INFO -- : worker=0 ready
+E, [2015-10-21T10:35:20.248477 #23570] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T10:35:20.248598 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T10:35:20.248623 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T10:35:20.248644 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T10:35:20.248669 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T10:35:20.248690 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T10:35:20.248709 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T10:35:20.248729 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T10:35:20.248767 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T10:35:20.248788 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T10:35:20.248807 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T10:35:20.248826 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T10:35:21.095835 #23570] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T10:35:21.096079 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T10:35:21.096114 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T10:35:21.096134 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T10:35:21.096154 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T10:35:21.096172 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T10:35:21.096191 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T10:35:21.096225 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T10:35:21.096249 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T10:35:21.096268 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T10:35:21.096286 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T10:35:21.096305 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T10:36:53.944061 #24163] ERROR -- : old PID:23565 running with existing pid=/home/root/davesmccarthy/shared/pids/unicorn.pid.oldbin, refusing rexec
+E, [2015-10-21T10:41:39.205463 #23568] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T10:41:39.205589 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T10:41:39.205614 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T10:41:39.205635 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T10:41:39.205656 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T10:41:39.205676 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T10:41:39.205695 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T10:41:39.205715 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T10:41:39.205734 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T10:41:39.205772 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T10:41:39.205812 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T10:41:39.205836 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T10:41:39.290997 #23568] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T10:41:39.291108 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T10:41:39.291130 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T10:41:39.291149 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T10:41:39.291169 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T10:41:39.291188 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T10:41:39.291208 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T10:41:39.291227 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T10:41:39.291393 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T10:41:39.291418 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T10:41:39.291437 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T10:41:39.291455 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T10:43:16.623353 #24167] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T10:43:16.623482 #24167] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T10:43:16.623518 #24167] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T10:43:16.623540 #24167] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T10:43:16.623561 #24167] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T10:43:16.623700 #24167] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T10:43:16.623721 #24167] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T10:43:16.623741 #24167] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T10:43:16.623760 #24167] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T10:43:16.623780 #24167] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T10:43:16.623799 #24167] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T10:43:16.623835 #24167] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T10:43:49.335825 #24170] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T10:43:49.336053 #24170] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T10:43:49.336089 #24170] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T10:43:49.336110 #24170] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T10:43:49.336130 #24170] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T10:43:49.336149 #24170] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T10:43:49.336169 #24170] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T10:43:49.336188 #24170] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T10:43:49.336207 #24170] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T10:43:49.336226 #24170] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T10:43:49.336246 #24170] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T10:43:49.336264 #24170] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T10:45:48.720260 #23570] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T10:45:48.720391 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T10:45:48.720416 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T10:45:48.720438 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T10:45:48.720458 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T10:45:48.720478 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T10:45:48.720497 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T10:45:48.720517 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T10:45:48.720536 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T10:45:48.720556 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T10:45:48.720575 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T10:45:48.720594 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T10:48:44.824995 #23570] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T10:48:44.825107 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T10:48:44.825149 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T10:48:44.825170 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T10:48:44.825189 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T10:48:44.825208 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T10:48:44.825227 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T10:48:44.825246 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T10:48:44.825266 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T10:48:44.825543 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T10:48:44.825576 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T10:48:44.825596 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T10:48:48.630980 #23568] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T10:48:48.631087 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T10:48:48.631112 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T10:48:48.631133 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T10:48:48.631153 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T10:48:48.631172 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T10:48:48.631191 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T10:48:48.631210 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T10:48:48.631230 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T10:48:48.631249 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T10:48:48.631268 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T10:48:48.631559 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+I, [2015-10-21T11:02:39.796255 #24163]  INFO -- : reaped #<Process::Status: pid 24167 exit 0> worker=0
+I, [2015-10-21T11:02:39.796432 #24163]  INFO -- : reaped #<Process::Status: pid 24170 exit 0> worker=1
+I, [2015-10-21T11:02:39.796510 #24163]  INFO -- : master complete
+E, [2015-10-21T11:02:39.868249 #23565] ERROR -- : reaped #<Process::Status: pid 24163 exit 0> exec()-ed
+E, [2015-10-21T11:03:02.109807 #23568] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T11:03:02.109940 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T11:03:02.109966 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T11:03:02.109987 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T11:03:02.110056 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T11:03:02.110086 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T11:03:02.110106 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T11:03:02.110126 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T11:03:02.110146 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T11:03:02.110166 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T11:03:02.110185 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T11:03:02.110204 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T11:03:03.078882 #23570] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T11:03:03.078994 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T11:03:03.079019 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T11:03:03.079040 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T11:03:03.079061 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T11:03:03.079081 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T11:03:03.079100 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T11:03:03.079121 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T11:03:03.079141 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T11:03:03.079161 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T11:03:03.079180 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T11:03:03.079199 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T11:03:03.655619 #23568] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T11:03:03.655730 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T11:03:03.655755 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T11:03:03.655795 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T11:03:03.655817 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T11:03:03.655837 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T11:03:03.655857 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T11:03:03.656095 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T11:03:03.656121 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T11:03:03.656141 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T11:03:03.656161 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T11:03:03.656179 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T11:03:06.233114 #23570] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T11:03:06.233226 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T11:03:06.233250 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T11:03:06.233271 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T11:03:06.233291 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T11:03:06.233528 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T11:03:06.233555 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T11:03:06.233575 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T11:03:06.233595 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T11:03:06.233614 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T11:03:06.233634 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T11:03:06.233652 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T11:03:06.745540 #23568] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T11:03:06.745653 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T11:03:06.745679 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T11:03:06.745700 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T11:03:06.745720 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T11:03:06.745747 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T11:03:06.745786 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T11:03:06.745807 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T11:03:06.745828 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T11:03:06.745849 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T11:03:06.745869 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T11:03:06.745888 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T11:03:08.971576 #23570] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T11:03:08.971681 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T11:03:08.971705 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T11:03:08.971726 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T11:03:08.971746 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T11:03:08.971766 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T11:03:08.971785 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T11:03:08.971805 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T11:03:08.971825 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T11:03:08.971845 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T11:03:08.971865 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T11:03:08.971884 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T11:03:12.060781 #23570] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T11:03:12.060904 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T11:03:12.060928 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T11:03:12.060949 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T11:03:12.060976 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T11:03:12.060996 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T11:03:12.061016 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T11:03:12.061035 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T11:03:12.061072 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T11:03:12.061093 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T11:03:12.061112 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T11:03:12.061131 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T11:03:12.587968 #23568] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T11:03:12.588458 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T11:03:12.588493 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T11:03:12.588514 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T11:03:12.588534 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T11:03:12.588554 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T11:03:12.588574 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T11:03:12.588593 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T11:03:12.588613 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T11:03:12.588632 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T11:03:12.588652 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T11:03:12.588670 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T11:03:13.038713 #23568] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T11:03:13.038831 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T11:03:13.038854 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T11:03:13.038875 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T11:03:13.038894 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T11:03:13.038914 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T11:03:13.038933 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T11:03:13.038952 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T11:03:13.038972 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T11:03:13.038992 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T11:03:13.039028 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T11:03:13.039049 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T11:03:13.047255 #23570] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T11:03:13.047346 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T11:03:13.047368 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T11:03:13.047389 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T11:03:13.047408 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T11:03:13.047428 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T11:03:13.047447 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T11:03:13.047467 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T11:03:13.047487 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T11:03:13.047506 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T11:03:13.047526 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T11:03:13.047545 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T11:03:13.562873 #23570] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T11:03:13.562985 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T11:03:13.563008 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T11:03:13.563030 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T11:03:13.563050 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T11:03:13.563070 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T11:03:13.563090 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T11:03:13.563261 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T11:03:13.563284 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T11:03:13.563303 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T11:03:13.563322 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T11:03:13.563341 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T11:03:13.616478 #23568] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T11:03:13.616597 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T11:03:13.616620 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T11:03:13.616641 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T11:03:13.616661 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T11:03:13.616681 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T11:03:13.616700 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T11:03:13.616720 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T11:03:13.616740 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T11:03:13.616911 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T11:03:13.616932 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T11:03:13.616951 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T11:03:13.815241 #23570] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T11:03:13.815351 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T11:03:13.815376 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T11:03:13.815397 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T11:03:13.815417 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T11:03:13.815438 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T11:03:13.815458 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T11:03:13.815478 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T11:03:13.815610 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T11:03:13.815638 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T11:03:13.815657 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T11:03:13.815676 #23570] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+E, [2015-10-21T11:03:14.088120 #23568] ERROR -- : app error: Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml` (RuntimeError)
+E, [2015-10-21T11:03:14.088231 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:534:in `validate_secret_key_config!'
+E, [2015-10-21T11:03:14.088256 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:246:in `env_config'
+E, [2015-10-21T11:03:14.088294 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/engine.rb:514:in `call'
+E, [2015-10-21T11:03:14.088315 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/railties-4.2.1/lib/rails/application.rb:164:in `call'
+E, [2015-10-21T11:03:14.088336 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+E, [2015-10-21T11:03:14.088356 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+E, [2015-10-21T11:03:14.088377 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+E, [2015-10-21T11:03:14.088397 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+E, [2015-10-21T11:03:14.088417 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+E, [2015-10-21T11:03:14.088540 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `load'
+E, [2015-10-21T11:03:14.088564 #23568] ERROR -- : /root/.rbenv/versions/2.2.1/bin/unicorn:23:in `<main>'
+I, [2015-10-21T11:07:20.288926 #23565]  INFO -- : reaped #<Process::Status: pid 23568 exit 0> worker=0
+I, [2015-10-21T11:07:20.289111 #23565]  INFO -- : reaped #<Process::Status: pid 23570 exit 0> worker=1
+I, [2015-10-21T11:07:20.289191 #23565]  INFO -- : master complete
+I, [2015-10-21T11:07:38.348623 #26663]  INFO -- : Refreshing Gem list
+I, [2015-10-21T11:07:40.548171 #26663]  INFO -- : unlinking existing socket=/home/root/davesmccarthy/shared/sockets/unicorn.sock
+I, [2015-10-21T11:07:40.548393 #26663]  INFO -- : listening on addr=/home/root/davesmccarthy/shared/sockets/unicorn.sock fd=9
+I, [2015-10-21T11:07:40.548535 #26663]  INFO -- : worker=0 spawning...
+I, [2015-10-21T11:07:40.551175 #26663]  INFO -- : worker=1 spawning...
+I, [2015-10-21T11:07:40.552741 #26663]  INFO -- : master process ready
+I, [2015-10-21T11:07:40.566869 #26666]  INFO -- : worker=0 spawned pid=26666
+I, [2015-10-21T11:07:40.569596 #26666]  INFO -- : worker=0 ready
+I, [2015-10-21T11:07:40.574819 #26668]  INFO -- : worker=1 spawned pid=26668
+I, [2015-10-21T11:07:40.577462 #26668]  INFO -- : worker=1 ready

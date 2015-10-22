@@ -1,0 +1,63 @@
+.schedule
+  padding:
+    top: 5rem
+    bottom: 5rem
+
+  &--day
+    border-bottom: 1px solid $black
+    margin-bottom: 1.5rem
+    text-transform: uppercase
+    font-size: 0.8rem
+    display: flex
+    justify-content: space-between
+    align-items: baseline
+
+    &-label
+      text-transform: none
+      font:
+        size: 2rem
+        weight: lighter
+
+  &--table
+    width: 100%
+    margin: auto
+    border-collapse: collapse
+
+    tr
+      border-bottom: 1px solid $light-gray
+
+      &[m-event-multiple]
+        border-bottom: 0
+
+      &[m-event-small] td
+        height: 2rem
+        font-weight: bold
+
+      &[m-event-keynote] td
+        height: 6rem
+        font-weight: bold
+
+        > small
+          color: $orange
+          text-transform: uppercase
+
+    th
+      text-align: left
+      font-size: 0.8em
+      text-transform: uppercase
+
+    td
+      border-spacing: 0
+      border-width: 0
+      height: 3rem
+      padding-left: 0.8rem
+      vertical-align: middle
+
+    thead > tr
+      border-bottom: 0
+
+    &-label
+      margin:
+        top: 3rem
+        bottom: 0.5rem
+      color: $medium-gray
