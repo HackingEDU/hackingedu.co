@@ -1,0 +1,28 @@
+%section.splash#splash
+  %div
+  .splash--content
+    .centered.splash--tagline
+      .splash--tagline-top
+        %small World's
+        Largest
+      .splash--tagline-bottom
+        Education Hackathon
+
+    .splash--countdown
+      .splash--countdown-segment
+        .splash--countdown-number(js-countdown="day") 01
+        .splash--countdown-label Day
+      .splash--countdown-segment
+        .splash--countdown-number(js-countdown="hour") 14
+        .splash--countdown-label Hours
+      .splash--countdown-segment
+        .splash--countdown-number(js-countdown="minute") 11
+        .splash--countdown-label Minutes
+      .splash--countdown-segment
+        .splash--countdown-number(js-countdown="second") 10
+        .splash--countdown-label Seconds
+
+    .centered.leader.splash--location
+      %div San Mateo Convention Center
+      %small October 23rd - 25th
+  .splash--arrow

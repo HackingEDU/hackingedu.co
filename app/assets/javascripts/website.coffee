@@ -1,6 +1,6 @@
 countdown = ->
   now     = moment()
-  end     = moment( new Date("October 23, 2015 18:00:00") )
+  end     = moment( new Date("October 24, 2015 00:00:00") )
   days    = end.diff(now, "days")
   hours   = end.diff(now, "hours") % 24
   minutes = end.diff(now, "minutes") - ((hours * 60) + (days * 1440))
