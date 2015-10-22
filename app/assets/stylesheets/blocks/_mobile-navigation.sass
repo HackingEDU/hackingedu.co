@@ -19,15 +19,16 @@ body[s-active]
     opacity: 1
 
 .mobile-navigation
-  position: absolute
+  position: fixed
   width: $mobile-navigation-width
   left: -#{$mobile-navigation-width}
   top: 0
   bottom: 0
   background-color: #232323
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.8)
-  padding: 2rem
+  padding: 2rem 0 2rem 2rem
   color: $white
+  box-sizing: border-box
 
   &--link
     display: block

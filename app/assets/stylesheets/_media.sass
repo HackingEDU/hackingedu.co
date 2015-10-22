@@ -9,3 +9,40 @@
 
     &--logo
       order: 2
+
+  .resources
+    flex-direction: column
+
+    &--item
+      > a
+        background-color: $blue
+        padding: 0.5rem 1rem
+        color: $white
+        border-radius: 3px
+        text-decoration: none
+
+        &:hover
+          background-color: lighten($blue, 10%)
+          color: white
+
+      + .resources--item
+        margin-left: 0
+        margin-top: 3rem
+  
+  .splash--countdown
+    display: flex
+    justify-content: space-around
+
+    &-segment
+      width: auto
+
+    &-number
+      font-size: 2rem
+
+  .prize
+    flex-direction: column
+
+  .transportation--table,
+  .schedule--table
+    font-size: 0.8em
+
