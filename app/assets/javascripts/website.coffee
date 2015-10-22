@@ -22,6 +22,7 @@ $ ->
     if $("[js-menu]").attr "s-active"
       $("[js-menu]").removeAttr "s-active"
     else
+      $("[js-mobile-navigation]").css "top", $(window).scrollTop() + "px"
       $("[js-menu]").attr "s-active", true
   
   $("[js-close-navigation]").click ->
