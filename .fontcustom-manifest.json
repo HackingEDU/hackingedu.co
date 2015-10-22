@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "133d4405de9dcada90056200cb52ac693de8378a926fc9a5dd304d9ed4861711",
-    "current": "133d4405de9dcada90056200cb52ac693de8378a926fc9a5dd304d9ed4861711"
+    "previous": "a12a4669a1097af34f0c0eaf53ac4ce876501bffc2457b7b097f9c799a6cbde9",
+    "current": "a12a4669a1097af34f0c0eaf53ac4ce876501bffc2457b7b097f9c799a6cbde9"
   },
   "fonts": [
     "public/assets/icons.ttf",
@@ -10,9 +10,21 @@
     "public/assets/icons.eot"
   ],
   "glyphs": {
+    "judge": {
+      "codepoint": 61697,
+      "source": "app/assets/fonts/icons/judge.svg"
+    },
     "logo": {
       "codepoint": 61696,
       "source": "app/assets/fonts/icons/logo.svg"
+    },
+    "speaker": {
+      "codepoint": 61698,
+      "source": "app/assets/fonts/icons/speaker.svg"
+    },
+    "sponsor": {
+      "codepoint": 61699,
+      "source": "app/assets/fonts/icons/sponsor.svg"
     }
   },
   "options": {
@@ -38,6 +50,7 @@
     },
     "preprocessor_path": "",
     "quiet": false,
+    "skip_first": false,
     "templates": [
       "_icons.css.scss"
     ]

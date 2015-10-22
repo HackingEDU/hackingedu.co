@@ -31,4 +31,7 @@
   font-smoothing: antialiased;
 }
 
+[data-icon="judge"]:before { content: "\f101"; }
 [data-icon="logo"]:before { content: "\f100"; }
+[data-icon="speaker"]:before { content: "\f102"; }
+[data-icon="sponsor"]:before { content: "\f103"; }
