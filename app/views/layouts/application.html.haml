@@ -8,7 +8,8 @@
 
   %link(href='https://fonts.googleapis.com/css?family=Lato:400,300,900' rel='stylesheet' type='text/css')
 
-%body
+%body(js-menu="inactive")
   = render "partials/navigation"
+  = render "partials/mobile_navigation"
   = yield
   = render "partials/footer"

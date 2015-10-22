@@ -1,5 +1,12 @@
 body
+  transition: transform 0.25s ease-in-out
+  -webkit-transition: transform 0.25s ease-in-out
+  -moz-transition: transform 0.25s ease-in-out
   margin: 0
+
+  &[s-active]
+    transform: translateX($mobile-navigation-width)
+    overflow: hidden
 
 .centered
   text-align: center

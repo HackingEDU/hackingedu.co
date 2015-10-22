@@ -17,3 +17,12 @@ countdown = ->
 
 $ ->
   countdown()
+
+  $("[js-toggle-menu]").click ->
+    if $("[js-menu]").attr "s-active"
+      $("[js-menu]").removeAttr "s-active"
+    else
+      $("[js-menu]").attr "s-active", true
+  
+  $("[js-close-navigation]").click ->
+    $("[js-menu]").removeAttr "s-active"

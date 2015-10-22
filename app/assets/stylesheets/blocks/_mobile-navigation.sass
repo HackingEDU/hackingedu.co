@@ -1,0 +1,43 @@
+.body-overlay
+  transition: opacity 0.25s ease-in-out
+  -webkit-transition: opacity 0.25s ease-in-out
+  -moz-transition: opacity 0.25s ease-in-out
+  opacity: 0
+  pointer-events: none
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  z-index: -1
+  background-color: rgba(0,0,0,0.9)
+
+body[s-active]
+  .body-overlay
+    z-index: 1
+    pointer-events: initial
+    opacity: 1
+
+.mobile-navigation
+  position: absolute
+  width: $mobile-navigation-width
+  left: -#{$mobile-navigation-width}
+  top: 0
+  bottom: 0
+  background-color: #232323
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.8)
+  padding: 2rem
+  color: $white
+
+  &--link
+    display: block
+    line-height: 3rem
+    text-decoration: none
+    color: $off-white
+
+    &:hover
+      background-color: lighten($dark-gray, 10%)
+      color: $white
+
+    + .mobile-navigation--link
+      border-top: 1px solid $off-white
