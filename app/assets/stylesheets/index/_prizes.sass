@@ -1,0 +1,30 @@
+.prizes-container
+  background-color: $blue
+
+  .section-header
+    border-color: white
+    color: white
+
+.prizes
+  color: $black
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+
+.prize
+  width: 100%
+  padding: 2rem
+  background-color: $off-white
+  display: flex
+  align-items: center
+  text-align: center
+
+  + .prize
+    margin-top: 2rem
+  
+  &--category
+    flex-grow: 3
+
+  &--list
+    text-align: left
+    line-height: 1.5em
