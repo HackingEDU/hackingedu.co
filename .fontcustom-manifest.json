@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "467358bd29d7074d0d3121d7b1cd8b16ab21227f5820ae1b77ff953eeba6c9bd",
-    "current": "467358bd29d7074d0d3121d7b1cd8b16ab21227f5820ae1b77ff953eeba6c9bd"
+    "previous": "121885acd99493260f1f67167bd26f497f027f590ab02d73a4678cfb337d619f",
+    "current": "121885acd99493260f1f67167bd26f497f027f590ab02d73a4678cfb337d619f"
   },
   "fonts": [
     "public/assets/icons.ttf",
@@ -14,6 +14,14 @@
       "codepoint": 61700,
       "source": "app/assets/fonts/icons/code.svg"
     },
+    "facebook": {
+      "codepoint": 61708,
+      "source": "app/assets/fonts/icons/facebook.svg"
+    },
+    "instagram": {
+      "codepoint": 61709,
+      "source": "app/assets/fonts/icons/instagram.svg"
+    },
     "judge": {
       "codepoint": 61697,
       "source": "app/assets/fonts/icons/judge.svg"
@@ -21,6 +29,14 @@
     "logo": {
       "codepoint": 61696,
       "source": "app/assets/fonts/icons/logo.svg"
+    },
+    "mail": {
+      "codepoint": 61710,
+      "source": "app/assets/fonts/icons/mail.svg"
+    },
+    "medium": {
+      "codepoint": 61711,
+      "source": "app/assets/fonts/icons/medium.svg"
     },
     "menu": {
       "codepoint": 61705,
@@ -49,6 +65,10 @@
     "sponsor": {
       "codepoint": 61699,
       "source": "app/assets/fonts/icons/sponsor.svg"
+    },
+    "twitter": {
+      "codepoint": 61707,
+      "source": "app/assets/fonts/icons/twitter.svg"
     },
     "wifi": {
       "codepoint": 61706,
