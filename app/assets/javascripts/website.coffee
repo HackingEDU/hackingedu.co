@@ -35,3 +35,28 @@ $ ->
       $('html, body').animate
           scrollTop: $(target).offset().top
       , 1000
+  
+  targets = []
+  $(".navigation--link").each ->
+    target = $(this).attr "href"
+    targets.push target
+  
+  $(window).scroll ->
+    windowPos = $(window).scrollTop()
+    windowHeight = $(window).height()
+    docHeight = $(document).height()
+
+    for target, i in targets
+      theID = targets[i]
+      divPos = $(theID).offset().top
+      divHeight = $(theID).height()
+      if windowPos >= divPos && windowPos < (divPos + divHeight)
+        $(".navigation--link[href='#{ theID }']").attr "s-active", true
+      else
+        $(".navigation--link[href='#{ theID }']").removeAttr "s-active"
+
+    if windowPos + windowHeight == docHeight
+        if !$(".navigation--link:last-child").attr "s-active"
+            $(".navigation--link").removeAttr "s-active"
+            $("nav li:last-child a").attr "s-active", true
+
