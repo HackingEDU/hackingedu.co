@@ -25,5 +25,5 @@ $ ->
       $("[js-mobile-navigation]").css "top", $(window).scrollTop() + "px"
       $("[js-menu]").attr "s-active", true
   
-  $("[js-close-navigation]").click ->
+  $("[js-close-navigation], [js-menu-link]").click ->
     $("[js-menu]").removeAttr "s-active"
