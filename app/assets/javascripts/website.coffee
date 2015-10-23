@@ -28,13 +28,10 @@ $ ->
   $("[js-close-navigation], [js-menu-link]").click ->
     $("[js-menu]").removeAttr "s-active"
 
-  $('a[href*=#]:not([href=#])').click ->
-    console.log "boom"
-    if location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname
-      target = $( this.hash)
-      target = target.length ? target : $('[name=' + this.hash.slice(1))
-      if target.length
-        $('html, body').animate
-          scrollTop: target.offset().top
-        , 1000 
-        false
+  $('a[href^="#"]').on 'click', (e) ->
+    target = $(this).attr "href"
+    if target.length
+      e.preventDefault()
+      $('html, body').animate
+          scrollTop: $(target).offset().top
+      , 1000
