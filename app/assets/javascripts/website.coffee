@@ -18,15 +18,24 @@ countdown = ->
 $ ->
   countdown()
 
-  $("[js-toggle-menu]").click ->
-    if $("[js-menu]").attr "s-active"
-      $("[js-menu]").removeAttr "s-active"
-    else
-      $("[js-mobile-navigation]").css "top", $(window).scrollTop() + "px"
+  toggleMobileModal = (action) ->
+    if action == "open"
       $("[js-menu]").attr "s-active", true
+
+    else if action == "close"
+      $("[js-menu]").removeAttr "s-active"
+
+    else
+      if $("[js-menu]").is "[s-active]"
+        $("[js-menu]").removeAttr "s-active"
+      else
+        $("[js-menu]").attr "s-active", true
+
+  $("[js-toggle-menu]").click ->
+    toggleMobileModal("open")
   
-  $("[js-close-navigation], [js-menu-link]").click ->
-    $("[js-menu]").removeAttr "s-active"
+  $("[js-close-navigation]").click ->
+    toggleMobileModal("close")
 
   $('a[href^="#"]').on 'click', (e) ->
     target = $(this).attr "href"
@@ -56,7 +65,7 @@ $ ->
         $(".navigation--link[href='#{ theID }']").removeAttr "s-active"
 
     if windowPos + windowHeight == docHeight
-        if !$(".navigation--link:last-child").attr "s-active"
-            $(".navigation--link").removeAttr "s-active"
-            $("nav li:last-child a").attr "s-active", true
+      if !$(".navigation--link:last-child").attr "s-active"
+          $(".navigation--link").removeAttr "s-active"
+          $("nav li:last-child a").attr "s-active", true
 

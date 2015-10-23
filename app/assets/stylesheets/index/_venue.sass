@@ -1,5 +1,17 @@
 .venue
+  position: relative
+
+  &--overlay
+    position: absolute
+    left: 0
+    right: 0
+    background-image: linear-gradient($white 40%, transparent)
+    padding:
+      top: 3rem
+      bottom: 10rem
+
   &--map
-    position: relative
     width: 100%
-    height: 450px
+    height: 800px
+    display: flex
+    box-shadow: 0 2px 2px rgba(0,0,0,0.25)

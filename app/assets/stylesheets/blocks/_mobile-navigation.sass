@@ -4,31 +4,40 @@
   -moz-transition: opacity 0.25s ease-in-out
   opacity: 0
   pointer-events: none
-  position: absolute
+  position: fixed
   top: 0
   bottom: 0
   left: 0
   right: 0
-  z-index: -1
+  z-index: 1
   background-color: rgba(0,0,0,0.9)
 
 body[s-active]
+  left: $mobile-navigation-width
+  overflow: hidden
+
   .body-overlay
-    z-index: 1
     pointer-events: initial
     opacity: 1
 
+  .mobile-navigation
+    transform: translateX(0)
+
 .mobile-navigation
+  transition: transform 0.25s ease-in-out
+  -webkit-transition: transform 0.25s ease-in-out
+  -moz-transition: transform 0.25s ease-in-out
   position: fixed
   width: $mobile-navigation-width
-  left: -#{$mobile-navigation-width}
+  transform: translateX(-#{ $mobile-navigation-width })
+  left: 0
   top: 0
-  height: 100vh
+  bottom: 0
   background-color: #232323
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.8)
   padding: 2rem 0 2rem 2rem
   color: $white
   box-sizing: border-box
+  z-index: 1
 
   &--link
     display: block
